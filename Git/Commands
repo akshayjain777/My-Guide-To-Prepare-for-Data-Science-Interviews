@@ -1,0 +1,24 @@
+Default path on prompt:
+> echo $PATH
+
+**To open users folder on terminal:
+cd /Users/
+
+
+Commands to create new environment:
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+Tensor flow Installation on Mac:
+https://www.mrdbourke.com/setup-apple-m1-pro-and-m1-max-for-machine-learning-and-data-science/
+
+> Git/ Bitbucket push commands:
+1. git status
+2. git add .
+3. git commit -m "initial commit"
+4. git push -u origin master
+
+File & Directory Commands for Navigation -
+1. To navigate into the root directory, use "cd /"
+2. To navigate to your home directory, use "cd" or "cd ~"
+3. To navigate up one directory level, use "cd .."
+4. To navigate to the previous directory (or back), use "cd -"
