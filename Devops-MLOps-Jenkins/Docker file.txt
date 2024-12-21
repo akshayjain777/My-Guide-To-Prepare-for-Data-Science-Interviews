@@ -1,0 +1,65 @@
+sudo apt update
+    2  sudo apt install docker.io -y
+    3  sudo docker pull ubuntu
+    4  sudo docker run -it -d -p 100:80 ubuntu
+    5  sudo docker ps
+    6  sudo docker exec 4b18e82682d2 bash
+    7  sudo docker exec -it 4b18e82682d2 bash
+    8  sudo docker ps
+    9  sudo docker commit 4b18e82682d2 task-1
+   10  sudo docker images
+   11  sudo docker login
+   12  sudo docker images
+   13  sudo docker tag task-1 aadi0410/task-1
+   14  sudo docker images
+   15  sudo docker push aadi0410/task-1
+   16  sudo docker pull aadi0410/task-1
+   17  clear
+   18  sudo docker images
+   19  sudo docker ps
+   20  sudo docker rm -f 4b18e82682d2
+   21  sudo docker ps -a
+   22  sudo docker rmi aadi0410/task-1
+   23  sudo docker rmi task-1
+   24  sudo docker images
+   25  sudo docker rmi ubunut
+   26  sudo docker rmi ubuntu
+   27  sudo docker images
+   28  clear
+   29  sudo docker pull ubuntu
+   30  sudo docker volume create my-storage
+   31  sudo docker run -itd -p 888:80 --mount source=my-storage,destination=/workspace ubuntu
+   32  sudo docker exec -it 5aac62577e3f5c939ce28ea9071473c639447359cc3e86f27446f3533320ddad bash
+   33  sudo docker ps
+   34  sudo docker run -itd -p 188:80 --mount source=my-storage,destination=/target-space ubuntu
+   35  sudo docker exec -it 9d836bb3330403492d3d533eb1a917c46e4d54135f4ac2a532153d47e2807b24 bash
+   36  sudo docker ps
+   37  sudo docker exec -it 5aac62577e3f bash
+   38  clear
+   39  sudo docker ps
+   40  sudo docker rm -f 9d836bb33304
+   41  sudo docker rm -f 5aac62577e3f
+   42  sudo docker ps -a
+   43  sudo docker images
+   44  sudo docker rmi ubuntu
+   45  sudo docker images
+   46  clear
+   47  sudo nano Dockerfile
+   48  sudo docker build . -t img
+   49  sudo docker images
+   50  sudo nano Dockerfile 
+   51  sudo docker run -itd -p 82:80 img
+   52  history
+   53  sudo docker volume create my-space
+   54  sudo nano Dockerfile
+   55  sudo docker img
+   56  sudo docker images
+   57  sudo docker run -itd -p 90:80 img
+   58  sudo nano index.html
+   59  sudo nano Dockerfile 
+   60  sudo docker build . -t img123
+   61  sudo docker images
+   62  sudo docker run -itd -p 718:80 img123
+   63  sudo cat Dockerfile 
+   64  histpry
+   65  history
